@@ -1,7 +1,5 @@
-- render image on the webpage
-- render multiple images on the webpage
 - render the images on the webpage with a small border around each other & with the wall
-- off white background
+- make sure you can see the whole image on the page (don't have to scroll to see the rest)
 - render them as squares
 - if you hover over the image it enlarges
 - click image to go fullscreen with it, small border

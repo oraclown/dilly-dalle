@@ -27,10 +27,10 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Image alt="Butterfly boy w/ branches" src={butterflyBoyBranches} />
-          <Image alt="Face in forest" src={faceForest} />
           <Image alt="Woman w/ oranges" src={orangesWoman} />
-          <Image alt="Meditator w/ flame head" src={flameMeditator} />
           <Image alt="Guy in jungle w/ gourds" src={greenGuyGourds} />
+          <Image alt="Meditator w/ flame head" src={flameMeditator} />
+          <Image alt="Face in forest" src={faceForest} />
         </div>
       </main>
 

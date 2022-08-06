@@ -1,0 +1,14 @@
+- render image on the webpage
+- render multiple images on the webpage
+- render the images on the webpage with a small border around each other & with the wall
+- off white background
+- render them as squares
+- if you hover over the image it enlarges
+- click image to go fullscreen with it, small border
+- page for uploading new pictures to the feed, password protected
+
+- python api for
+- uploading new pictures & 
+- serving batches of least seen pictures from a database
+
+- connect frontend & backend

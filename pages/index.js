@@ -15,39 +15,36 @@ export default function Home() {
         <title>Dilly-Dalle</title>
       </Head>
 
-      <main class="font-mono text-stone-800 ">
-        <h1 class="text-center text-lg md:text-4xl font-semibold py-2 mt-4 mb-2 bg-teal-500">
-          favorite Dalle2 images I've spawned
+      <main className="font-mono text-stone-800">
+        <h1 className="text-center text-lg md:text-4xl font-semibold py-2 mt-4 mb-2 bg-teal-500">
+          favorite Dalle2 images I&apos;ve spawned
         </h1>
 
-        <p class="text-center mb-2">
-          more about Dalle2 <a class="hover:bg-green-300 text-blue-600 " href="https://openai.com/dall-e-2/">here</a>
+        <p className="text-center mb-2">
+          more about Dalle2 <a className="hover:bg-green-300 text-blue-600" href="https://openai.com/dall-e-2/">here</a>
         </p>
 
-        <div class="grid sm:grid-cols-2 items-center gap-2">
-          <div class="p-10 aspect-square">
+        <div className="grid sm:grid-cols-2 items-center gap-2">
+          <div className="p-10 aspect-square">
             <Image alt="Butterfly boy w/ branches" src={butterflyBoyBranches} />
           </div>
-          <div class="p-10 aspect-square">
-            <Image class="" alt="Woman w/ oranges" src={orangesWoman} />
+          <div className="p-10 aspect-square">
+            <Image alt="Woman w/ oranges" src={orangesWoman} />
           </div>
-          <div class="p-10 aspect-square">
-            <Image class="" alt="Guy in jungle w/ gourds" src={greenGuyGourds} />
+          <div className="p-10 aspect-square">
+            <Image alt="Guy in jungle w/ gourds" src={greenGuyGourds} />
           </div>
-          <div class="p-10 aspect-square">
-            <Image class="" alt="A pond in a jungle" src={junglePond} />
+          <div className="p-10 aspect-square">
+            <Image alt="A pond in a jungle" src={junglePond} />
           </div>
-          <div class="p-10 aspect-square">
-            <Image class="" alt="Face in forest" src={faceForest} />
+          <div className="p-10 aspect-square">
+            <Image alt="Face in forest" src={faceForest} />
           </div>
-          <div class="p-10 aspect-square">
-            <Image class="" alt="Meditator w/ flame head" src={flameMeditator} />
+          <div className="p-10 aspect-square">
+            <Image alt="Meditator w/ flame head" src={flameMeditator} />
           </div>
         </div>
       </main>
-
-      <footer>
-      </footer>
     </div>
   )
 }
